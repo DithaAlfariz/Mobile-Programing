@@ -12,8 +12,8 @@ class ProfilePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           // crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
-            Text("Nama Aplikasi: My Flutter App"),
-            Text("Versi: 1.0.0"),
+            Text("Nama Aplikasi: Flutter"),
+            Text("Versi: 3.35.2"),
             Text("Developer: Ditha Alfariz"),
           ],
         ),

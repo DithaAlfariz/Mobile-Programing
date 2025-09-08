@@ -63,9 +63,9 @@ class _MainPageState extends State<MainPage> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => SecondPageWithData(
-                      nama: "Dzikri",
-                      umur: 20,
-                      alamat: "Bandung",
+                      nama: "Fariz",
+                      umur: 21,
+                      alamat: "Karawang",
                     ),
                   ),
                 );
@@ -79,9 +79,9 @@ class _MainPageState extends State<MainPage> {
             ElevatedButton(
               onPressed: () {
                 final mhs = Mahasiswa(
-                  nama: "dzikri 2",
+                  nama: "Ditha",
                   umur: 21,
-                  alamat: "Jakarta",
+                  alamat: "Karawang",
                   kontak: "123456789",
                 );
                 Navigator.push(
